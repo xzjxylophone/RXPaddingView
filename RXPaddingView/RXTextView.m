@@ -52,7 +52,7 @@
 - (void)refreshPlaceholder
 {
     if(self.text.length > 0) {
-        self.lblPlaceholder.alpha = 0;
+        self.lblPlaceholder.alpha = 1;
     } else {
         self.lblPlaceholder.alpha = 0;
     }
