@@ -29,16 +29,13 @@
     return _tv;
 }
 
-
-
-
-- (void)updateWithLeftPadding:(CGFloat)leftPadding
+- (UIView *)customView
 {
-    UIEdgeInsets padding = UIEdgeInsetsMake(0, leftPadding, 0, leftPadding);
-    [self.tv mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self).with.insets(padding);
-    }];
+    return self.tv;
 }
+
+
+
 
 
 

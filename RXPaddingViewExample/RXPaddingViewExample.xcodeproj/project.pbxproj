@@ -14,7 +14,6 @@
 		58B167711BF973110024EE61 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B1676F1BF973110024EE61 /* MainViewController.xib */; };
 		58B1677B1BF974290024EE61 /* RXLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B167741BF974290024EE61 /* RXLabelView.m */; };
 		58B1677C1BF974290024EE61 /* RXTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B167761BF974290024EE61 /* RXTextFieldView.m */; };
-		58B1677D1BF974290024EE61 /* RXTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B167781BF974290024EE61 /* RXTextView.m */; };
 		58B1677E1BF974290024EE61 /* RXTextViewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1677A1BF974290024EE61 /* RXTextViewView.m */; };
 		58B167811BF974480024EE61 /* RXPaddingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B167801BF974480024EE61 /* RXPaddingView.m */; };
 		F2CFEB117782021A16E60589 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B36BC8818C4C053B4C80D6 /* libPods.a */; };
@@ -35,12 +34,11 @@
 		58B167741BF974290024EE61 /* RXLabelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXLabelView.m; sourceTree = "<group>"; };
 		58B167751BF974290024EE61 /* RXTextFieldView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTextFieldView.h; sourceTree = "<group>"; };
 		58B167761BF974290024EE61 /* RXTextFieldView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTextFieldView.m; sourceTree = "<group>"; };
-		58B167771BF974290024EE61 /* RXTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTextView.h; sourceTree = "<group>"; };
-		58B167781BF974290024EE61 /* RXTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTextView.m; sourceTree = "<group>"; };
 		58B167791BF974290024EE61 /* RXTextViewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTextViewView.h; sourceTree = "<group>"; };
 		58B1677A1BF974290024EE61 /* RXTextViewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTextViewView.m; sourceTree = "<group>"; };
 		58B1677F1BF974480024EE61 /* RXPaddingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXPaddingView.h; sourceTree = "<group>"; };
 		58B167801BF974480024EE61 /* RXPaddingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXPaddingView.m; sourceTree = "<group>"; };
+		58B167AE1BF9C8B50024EE61 /* RXPVHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXPVHeader.h; sourceTree = "<group>"; };
 		86B36BC8818C4C053B4C80D6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEADD5297386DA6D99720877 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,12 +112,11 @@
 				58B167741BF974290024EE61 /* RXLabelView.m */,
 				58B167751BF974290024EE61 /* RXTextFieldView.h */,
 				58B167761BF974290024EE61 /* RXTextFieldView.m */,
-				58B167771BF974290024EE61 /* RXTextView.h */,
-				58B167781BF974290024EE61 /* RXTextView.m */,
 				58B167791BF974290024EE61 /* RXTextViewView.h */,
 				58B1677A1BF974290024EE61 /* RXTextViewView.m */,
 				58B1677F1BF974480024EE61 /* RXPaddingView.h */,
 				58B167801BF974480024EE61 /* RXPaddingView.m */,
+				58B167AE1BF9C8B50024EE61 /* RXPVHeader.h */,
 			);
 			name = RXPaddingView;
 			path = ../../RXPaddingView;
@@ -261,7 +258,6 @@
 				58B167701BF973110024EE61 /* MainViewController.m in Sources */,
 				58B167581BF972870024EE61 /* main.m in Sources */,
 				58B167811BF974480024EE61 /* RXPaddingView.m in Sources */,
-				58B1677D1BF974290024EE61 /* RXTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

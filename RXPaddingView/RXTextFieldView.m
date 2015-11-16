@@ -22,16 +22,11 @@
     return _tf;
 }
 
-
-
-
-- (void)updateWithLeftPadding:(CGFloat)leftPadding
+- (UIView *)customView
 {
-    UIEdgeInsets padding = UIEdgeInsetsMake(0, leftPadding, 0, leftPadding);
-    [self.tf mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self).with.insets(padding);
-    }];
+    return self.tf;
 }
+
 
 
 @end

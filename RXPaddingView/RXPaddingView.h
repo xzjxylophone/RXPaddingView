@@ -10,4 +10,22 @@
 
 @interface RXPaddingView : UIView
 
+
+@property (nonatomic, readonly) UIView *customView;
+
+
+
+- (void)updateConstraintsWithLeft:(CGFloat)left;
+
+- (void)updateConstraintsWithLeft:(CGFloat)left top:(CGFloat)top;
+
+- (void)updateConstraintsWithLeft:(CGFloat)left top:(CGFloat)top right:(CGFloat)right bottom:(CGFloat)bottom;
+
+
+
+
+
+
+
+
 @end

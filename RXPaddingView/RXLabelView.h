@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface RXLabelView : UIView
+#import "RXPaddingView.h"
+@interface RXLabelView : RXPaddingView
 
 
 @property (nonatomic, strong) UILabel *lbl;
 
-- (void)updateWithLeftPadding:(CGFloat)leftPadding;
 
 
 @end

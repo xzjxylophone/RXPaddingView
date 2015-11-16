@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RXPaddingView.h"
 @class RXTextView;
-@interface RXTextViewView : UIView
+@interface RXTextViewView : RXPaddingView
 
 @property (nonatomic, strong) RXTextView *tv;
 

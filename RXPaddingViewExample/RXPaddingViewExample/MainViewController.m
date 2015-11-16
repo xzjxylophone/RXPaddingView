@@ -7,8 +7,9 @@
 //
 
 #import "MainViewController.h"
-
+#import "RXPVHeader.h"
 @interface MainViewController ()
+@property (weak, nonatomic) IBOutlet RXLabelView *rxLabelView;
 
 @end
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.rxLabelView.backgroundColor = [UIColor redColor];
+    self.rxLabelView.lbl.backgroundColor = [UIColor greenColor];
+    
+    [self.rxLabelView updateConstraintsWithLeft:10 top:20 right:30 bottom:40];
 }
 
 - (void)didReceiveMemoryWarning {

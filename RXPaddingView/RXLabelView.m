@@ -22,24 +22,12 @@
     }
     return _lbl;
 }
-
-
-
-
-- (void)updateWithLeftPadding:(CGFloat)leftPadding
+- (UIView *)customView
 {
-    UIEdgeInsets padding = UIEdgeInsetsMake(0, leftPadding, 0, -leftPadding);
-    [self.lbl mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.edges.equalTo(self).with.insets(padding);
-        
-//        make.left.equalTo(self.mas_left).with.offset(leftPadding);
-//        make.top.equalTo(self.mas_top).with.offset(0);
-//        make.right.equalTo(self.mas_right).with.offset(-leftPadding);
-//        make.bottom.equalTo(self.mas_bottom).with.offset(0);
-        
-    }];
-    
+    return self.lbl;
 }
+
+
 
 
 

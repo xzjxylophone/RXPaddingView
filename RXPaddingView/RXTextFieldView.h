@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RXPaddingView.h"
 
-@interface RXTextFieldView : UIView
+@interface RXTextFieldView : RXPaddingView
 
 
 @property (nonatomic, strong) UITextField *tf;
 
-- (void)updateWithLeftPadding:(CGFloat)leftPadding;
 
 @end
