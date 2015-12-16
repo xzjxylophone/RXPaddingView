@@ -12,7 +12,7 @@
 @interface RXTextFieldView : RXPaddingView
 
 
-@property (nonatomic, strong) UITextField *tf;
+@property (nonatomic, strong) UITextField *textField;
 
 
 @end

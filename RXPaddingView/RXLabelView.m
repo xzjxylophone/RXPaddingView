@@ -13,18 +13,18 @@
 
 
 
-- (UILabel *)lbl
+- (UILabel *)label
 {
-    if (_lbl == nil) {
-        _lbl = [[UILabel alloc] initWithFrame:CGRectZero];
-        _lbl.backgroundColor = [UIColor clearColor];
-        [self addSubview:_lbl];
+    if (_label == nil) {
+        _label = [[UILabel alloc] initWithFrame:CGRectZero];
+        _label.backgroundColor = [UIColor clearColor];
+        [self addSubview:_label];
     }
-    return _lbl;
+    return _label;
 }
 - (UIView *)customView
 {
-    return self.lbl;
+    return self.label;
 }
 
 

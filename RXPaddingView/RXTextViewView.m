@@ -20,18 +20,18 @@
 
 #pragma mark - Private
 
-- (RXTextView *)tv
+- (RXTextView *)rxTextView
 {
-    if (_tv == nil) {
-        _tv = [[RXTextView alloc] initWithFrame:CGRectZero];
-        [self addSubview:_tv];
+    if (_rxTextView == nil) {
+        _rxTextView = [[RXTextView alloc] initWithFrame:CGRectZero];
+        [self addSubview:_rxTextView];
     }
-    return _tv;
+    return _rxTextView;
 }
 
 - (UIView *)customView
 {
-    return self.tv;
+    return self.rxTextView;
 }
 
 

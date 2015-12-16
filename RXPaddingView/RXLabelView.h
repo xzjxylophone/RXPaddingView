@@ -11,7 +11,7 @@
 @interface RXLabelView : RXPaddingView
 
 
-@property (nonatomic, strong) UILabel *lbl;
+@property (nonatomic, strong) UILabel *label;
 
 
 

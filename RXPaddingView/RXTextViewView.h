@@ -11,7 +11,7 @@
 @class RXTextView;
 @interface RXTextViewView : RXPaddingView
 
-@property (nonatomic, strong) RXTextView *tv;
+@property (nonatomic, strong) RXTextView *rxTextView;
 
 
 @end

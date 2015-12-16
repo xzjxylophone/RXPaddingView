@@ -11,20 +11,20 @@
 @implementation RXTextFieldView
 
 
-- (UITextField *)tf
+- (UITextField *)textField
 {
-    if (_tf == nil) {
-        _tf = [[UITextField alloc] initWithFrame:CGRectZero];
+    if (_textField == nil) {
+        _textField = [[UITextField alloc] initWithFrame:CGRectZero];
         
-        _tf.placeholder = @"";
-        [self addSubview:_tf];
+        _textField.placeholder = @"";
+        [self addSubview:_textField];
     }
-    return _tf;
+    return _textField;
 }
 
 - (UIView *)customView
 {
-    return self.tf;
+    return self.textField;
 }
 
 
