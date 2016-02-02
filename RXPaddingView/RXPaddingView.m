@@ -35,7 +35,26 @@
     NSLayoutConstraint *lc4 = [NSLayoutConstraint constraintWithItem:superView attribute:NSLayoutAttributeBottom relatedBy:NSLayoutRelationEqual toItem:subView attribute:NSLayoutAttributeBottom multiplier:1 constant:bottom];
     [superView addConstraints:@[lc1, lc2, lc3, lc4]];
 }
+- (void)updateFrameWithLeft:(CGFloat)left
+{
+    [self updateFrameWithLeft:left top:0];
+}
 
+- (void)updateFrameWithLeft:(CGFloat)left top:(CGFloat)top
+{
+    [self updateFrameWithLeft:left top:top right:left bottom:top];
+}
+
+- (void)updateFrameWithLeft:(CGFloat)left top:(CGFloat)top right:(CGFloat)right bottom:(CGFloat)bottom
+{
+    CGFloat width = self.frame.size.width;
+    CGFloat height = self.frame.size.height;
+    CGFloat customViewX = left;
+    CGFloat customViewY = top;
+    CGFloat customViewWidth = width - left - right;
+    CGFloat customViewHeight = height - top - bottom;
+    self.customView.frame = CGRectMake(customViewX, customViewY, customViewWidth, customViewHeight);
+}
 
 
 

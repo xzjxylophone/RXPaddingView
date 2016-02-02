@@ -24,6 +24,16 @@
 
 
 
+- (void)updateFrameWithLeft:(CGFloat)left;
+
+- (void)updateFrameWithLeft:(CGFloat)left top:(CGFloat)top;
+
+- (void)updateFrameWithLeft:(CGFloat)left top:(CGFloat)top right:(CGFloat)right bottom:(CGFloat)bottom;
+
+
+
+
+
 
 
 

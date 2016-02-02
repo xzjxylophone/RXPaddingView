@@ -8,8 +8,10 @@
 
 #import "MainViewController.h"
 #import "RXPVHeader.h"
+#import "RXTextView.h"
 @interface MainViewController ()
 @property (weak, nonatomic) IBOutlet RXLabelView *rxLabelView;
+@property (weak, nonatomic) IBOutlet RXTextViewView *rxTextViewView;
 
 @end
 
@@ -23,6 +25,11 @@
     self.rxLabelView.label.backgroundColor = [UIColor greenColor];
     
     [self.rxLabelView updateConstraintsWithLeft:10 top:20 right:30 bottom:40];
+    
+    
+    self.rxTextViewView.backgroundColor = [UIColor redColor];
+    [self.rxTextViewView updateConstraintsWithLeft:16];
+    self.rxTextViewView.rxTextView.placeholder = @"输入文字信息...";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -30,6 +37,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [self.rxTextViewView.rxTextView refreshPlaceholder];
+}
 /*
 #pragma mark - Navigation
 
