@@ -16,6 +16,7 @@
 		58B1677C1BF974290024EE61 /* RXTextFieldView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B167761BF974290024EE61 /* RXTextFieldView.m */; };
 		58B1677E1BF974290024EE61 /* RXTextViewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1677A1BF974290024EE61 /* RXTextViewView.m */; };
 		58B167811BF974480024EE61 /* RXPaddingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B167801BF974480024EE61 /* RXPaddingView.m */; };
+		C95CA1171D9BBFEE00AB7E29 /* RXButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95CA1161D9BBFEE00AB7E29 /* RXButtonView.m */; };
 		F2CFEB117782021A16E60589 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B36BC8818C4C053B4C80D6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,8 @@
 		58B167801BF974480024EE61 /* RXPaddingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXPaddingView.m; sourceTree = "<group>"; };
 		58B167AE1BF9C8B50024EE61 /* RXPVHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXPVHeader.h; sourceTree = "<group>"; };
 		86B36BC8818C4C053B4C80D6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95CA1151D9BBFEE00AB7E29 /* RXButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXButtonView.h; sourceTree = "<group>"; };
+		C95CA1161D9BBFEE00AB7E29 /* RXButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXButtonView.m; sourceTree = "<group>"; };
 		CEADD5297386DA6D99720877 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +120,8 @@
 				58B1677F1BF974480024EE61 /* RXPaddingView.h */,
 				58B167801BF974480024EE61 /* RXPaddingView.m */,
 				58B167AE1BF9C8B50024EE61 /* RXPVHeader.h */,
+				C95CA1151D9BBFEE00AB7E29 /* RXButtonView.h */,
+				C95CA1161D9BBFEE00AB7E29 /* RXButtonView.m */,
 			);
 			name = RXPaddingView;
 			path = ../../RXPaddingView;
@@ -253,6 +258,7 @@
 			files = (
 				58B1675B1BF972870024EE61 /* AppDelegate.m in Sources */,
 				58B1677B1BF974290024EE61 /* RXLabelView.m in Sources */,
+				C95CA1171D9BBFEE00AB7E29 /* RXButtonView.m in Sources */,
 				58B1677C1BF974290024EE61 /* RXTextFieldView.m in Sources */,
 				58B1677E1BF974290024EE61 /* RXTextViewView.m in Sources */,
 				58B167701BF973110024EE61 /* MainViewController.m in Sources */,

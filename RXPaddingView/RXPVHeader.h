@@ -12,6 +12,8 @@
 #import "RXLabelView.h"
 #import "RXTextFieldView.h"
 #import "RXTextViewView.h"
+#import "RXButtonView.h"
+
 
 
 #endif /* RXPVHeader_h */
