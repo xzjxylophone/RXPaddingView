@@ -17,6 +17,7 @@
 		58B1677E1BF974290024EE61 /* RXTextViewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B1677A1BF974290024EE61 /* RXTextViewView.m */; };
 		58B167811BF974480024EE61 /* RXPaddingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B167801BF974480024EE61 /* RXPaddingView.m */; };
 		C95CA1171D9BBFEE00AB7E29 /* RXButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = C95CA1161D9BBFEE00AB7E29 /* RXButtonView.m */; };
+		C9F07C2A1DB8D5A900007C0C /* RXImageViewView.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F07C291DB8D5A900007C0C /* RXImageViewView.m */; };
 		F2CFEB117782021A16E60589 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B36BC8818C4C053B4C80D6 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		86B36BC8818C4C053B4C80D6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C95CA1151D9BBFEE00AB7E29 /* RXButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXButtonView.h; sourceTree = "<group>"; };
 		C95CA1161D9BBFEE00AB7E29 /* RXButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXButtonView.m; sourceTree = "<group>"; };
+		C9F07C281DB8D5A900007C0C /* RXImageViewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXImageViewView.h; sourceTree = "<group>"; };
+		C9F07C291DB8D5A900007C0C /* RXImageViewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXImageViewView.m; sourceTree = "<group>"; };
 		CEADD5297386DA6D99720877 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,6 +125,8 @@
 				58B167AE1BF9C8B50024EE61 /* RXPVHeader.h */,
 				C95CA1151D9BBFEE00AB7E29 /* RXButtonView.h */,
 				C95CA1161D9BBFEE00AB7E29 /* RXButtonView.m */,
+				C9F07C281DB8D5A900007C0C /* RXImageViewView.h */,
+				C9F07C291DB8D5A900007C0C /* RXImageViewView.m */,
 			);
 			name = RXPaddingView;
 			path = ../../RXPaddingView;
@@ -170,6 +175,8 @@
 				TargetAttributes = {
 					58B167521BF972870024EE61 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = BMW986WME7;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -264,6 +271,7 @@
 				58B167701BF973110024EE61 /* MainViewController.m in Sources */,
 				58B167581BF972870024EE61 /* main.m in Sources */,
 				58B167811BF974480024EE61 /* RXPaddingView.m in Sources */,
+				C9F07C2A1DB8D5A900007C0C /* RXImageViewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +364,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BMW986WME7;
 				INFOPLIST_FILE = RXPaddingViewExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -371,6 +381,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = BMW986WME7;
 				INFOPLIST_FILE = RXPaddingViewExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

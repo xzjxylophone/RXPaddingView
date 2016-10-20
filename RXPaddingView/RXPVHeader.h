@@ -13,6 +13,7 @@
 #import "RXTextFieldView.h"
 #import "RXTextViewView.h"
 #import "RXButtonView.h"
+#import "RXImageViewView.h"
 
 
 
