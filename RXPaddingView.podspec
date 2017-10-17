@@ -10,7 +10,7 @@
 
 Pod::Spec.new do |s|
   s.name     = "RXPaddingView"
-  s.version  = "0.6"
+  s.version  = "0.7"
   s.license  = "MIT"
   s.summary  = "RXPaddingView is a simple UIXXView"
   s.homepage = "https://github.com/xzjxylophone/RXPaddingView"
